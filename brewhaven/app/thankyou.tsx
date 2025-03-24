@@ -7,7 +7,7 @@ const ThankyouPage = () => {
   return (
     <GestureHandlerRootView>
         <View className='w-full h-full items-center justify-center '>
-        <Text className='text-3xl font-[Sora-SemiBold] text-center mx-10'>Thank you For Your Order</Text>
+        <Text className='text-3xl font-[Sora-SemiBold] text-center mx-10'>Thank you for your order</Text>
 
         <TouchableOpacity 
                 className='bg-app_orange_color 2-full rounded-2xl items-center justify-center mt-6 py-3 px-4 font-[Sora-SemiBold]'
