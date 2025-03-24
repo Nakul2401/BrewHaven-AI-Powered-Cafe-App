@@ -70,7 +70,7 @@ The React Native Coffee Shop App serves as the front-end interface for customers
 * **Home Page:** Displays featured menu items and product categories.
 * **Item Details Page:** Provides detailed descriptions, including ingredients and allergens for each item.
 * **Cart Page:** Allows users to review and modify their order before checkout.
-* **Chatbot Interface:** Enables customers to interact directly with the AI chatbot for order assistance, recommendations, and queries.
+* **Chatbot Interface:** Enables customers to interact directly with the AI chatbot for placing order, recommendations, and queries.
 
 # 📂 Directory Structure
 ```bash
