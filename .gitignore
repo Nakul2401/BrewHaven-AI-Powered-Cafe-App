@@ -1,0 +1,13 @@
+venv/
+
+node_modules/
+
+.ipynb_checkpoints/
+python_code/.ipynb_checkpoints/
+
+python_code/api/__pycache__
+
+python_code/api/agents/__pycache__
+
+python_code/api/.env
+python_code/.env
