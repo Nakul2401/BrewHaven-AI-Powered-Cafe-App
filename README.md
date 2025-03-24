@@ -11,12 +11,12 @@ This Project uses following tools and Technologies:
 * Retrieval-Augmented Generation (RAG)
 * Pinecone vector database
 * Prompt Engineering - Chain of Thoughts, Input and Output Structuring
-* Firebase database
+* Firebase database - To fetch cafe details from frontend
 * Llama 3.1-8b-Instruct
 * BGE Vector Embeddings
 * Recommendation engine
 * Data Mining - Apriori Algorithm - Market Basket Analysis
-* React Native - Expo - Nativewind
+* React Native - Expo - Nativewind - for frontend
 * Runpod - For deployment of LLM and Docker Image as API
 * Docker - To write and build Docker file and image
 * Coffee shop sales dataset from Kaggle
