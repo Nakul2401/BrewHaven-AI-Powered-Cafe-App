@@ -2,7 +2,8 @@
 
 # dependencies
 node_modules/
-.env
+brewhaven/.env
+
 # Expo
 .expo/
 dist/
