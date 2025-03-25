@@ -80,9 +80,9 @@ The React Native Coffee Shop App serves as the front-end interface for customers
 │       ├── API/               # Chatbot API for agent-based system
 │       ├── dataset/           # Dataset for training recommendation engine    
 │       ├── products/          # Product data (names, prices, descriptions, images)   
-│       ├── build_vector_database.ipynb             # Builds vector database for RAG model   
-│       ├── firebase_uploader.ipynb                 # Uploads products to Firebase    
-│       ├── recommendation_engine_training.ipynb    # Trains recommendation engine 
+│       ├── vector_database.py             # Builds vector database for RAG model   
+│       ├── firebase.py                 # Uploads products to Firebase    
+│       ├── recommendation_engine.py    # Trains recommendation engine 
 ```
 
 
