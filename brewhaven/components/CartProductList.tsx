@@ -40,7 +40,9 @@ const ProductList: React.FC<ProductListProps> = ({ products, quantities, setQuan
     );
   
     return (
-        <View>
+        <View
+          className='-mb-9 mt-2'
+        >
             {filteredProducts.length > 0 ? (
                 <FlatList
                     ListHeaderComponent={<CartHeader />}

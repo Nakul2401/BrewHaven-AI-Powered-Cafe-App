@@ -11,6 +11,7 @@ import ProductList from '@/components/CartProductList';
 import { useCart } from '@/components/CartContext';
 import Toast from 'react-native-root-toast';
 import { router } from 'expo-router';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 const Order = () => {
 
@@ -63,9 +64,9 @@ const Order = () => {
 
   return (
     <GestureHandlerRootView
-      className='bg-[#F9F9F9] w-full h-full'
+      className='bg-[#F9F9F9] w-full h-full]'
     >
-      <StatusBar backgroundColor="white" />
+      {/* <StatusBar backgroundColor="white" /> */}
       <PageHeader title="Order" showHeaderRight={false} bgColor='#F9F9F9' />
 
       <View className='h-full flex-col justify-between'>
@@ -75,7 +76,7 @@ const Order = () => {
         </View>
         
         <View
-            className='bg-white rounded-tl-3xl rounded-tr-3xl px-7 pt-3 pb-6'
+            className='bg-[#222222] rounded-tl-3xl rounded-tr-3xl px-7 pt-3 pb-6'
           > 
           <View
             className='flex-row justify-between items-center'
@@ -84,18 +85,18 @@ const Order = () => {
               <Ionicons name="wallet-outline" size={24} color="#C67C4E" />
               <View>
                 <Text
-                        className="text-[#242424] text-base font-[Sora-SemiBold] pb-1 ml-3"
+                        className="text-white text-base font-[Sora-SemiBold] pb-1 ml-3"
                   >Cash/Wallet
                 </Text>
                 <Text
-                        className="text-app_orange_color text-sm font-[Sora-SemiBold] ml-3"
+                        className="text-white text-sm font-[Sora-SemiBold] ml-3"
                   >₹ {totalPrice === 0 ? 0 : totalPrice+5} 
                 </Text>
               </View>
 
             </View>
 
-            <MaterialIcons name="keyboard-arrow-down" size={24} color="black" />
+            <MaterialIcons name="keyboard-arrow-down" size={24} color="#C67C4E" />
 
           </View>
             
