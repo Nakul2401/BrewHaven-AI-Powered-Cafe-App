@@ -1,5 +1,6 @@
 import { initializeApp } from 'firebase/app';
 import { getDatabase } from 'firebase/database';
+import { measure } from 'react-native-reanimated';
 
 const firebaseConfig = {
     apiKey: process.env.EXPO_PUBLIC_API_KEY as string,

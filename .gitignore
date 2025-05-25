@@ -11,3 +11,5 @@ python_code/api/agents/__pycache__
 
 python_code/api/.env
 python_code/.env
+
+app/.env

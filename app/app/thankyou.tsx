@@ -1,6 +1,6 @@
-import { Text, View } from 'react-native'
+import { Text, View, TouchableOpacity } from 'react-native'
 import React from 'react'
-import { TouchableOpacity,GestureHandlerRootView } from 'react-native-gesture-handler'
+import { GestureHandlerRootView } from 'react-native-gesture-handler'
 import {router} from "expo-router";
 
 const ThankyouPage = () => {

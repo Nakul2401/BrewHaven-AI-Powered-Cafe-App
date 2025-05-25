@@ -1,6 +1,6 @@
 /// <reference types="nativewind/types" />
-import { Text, View,SafeAreaView, ImageBackground  } from "react-native";
-import { GestureHandlerRootView, TouchableOpacity } from "react-native-gesture-handler";
+import { Text, View,SafeAreaView, ImageBackground, TouchableOpacity  } from "react-native";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
 import {router} from "expo-router";
 
 export default function Index() {

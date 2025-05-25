@@ -39,8 +39,10 @@ const ChatRoom = () => {
           >
             <Feather name="send" size={hp(2.7)} color="white"/>
           </TouchableOpacity>
+          {/* Continue from here */}
 
-          
+
+         
 
         </View>
 

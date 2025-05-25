@@ -1,10 +1,11 @@
+import React from 'react'
 import { Stack } from "expo-router";
 import { NativeWindStyleSheet } from "nativewind";
 import { useFonts } from "expo-font";
 import { CartProvider } from '@/components/CartContext';
 import { RootSiblingParent } from 'react-native-root-siblings';
 
-NativeWindStyleSheet.setOutput( {
+NativeWindStyleSheet.setOutput({
   default: "native",
 });
 
