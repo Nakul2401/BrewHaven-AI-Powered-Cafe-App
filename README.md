@@ -75,7 +75,7 @@ The React Native Coffee Shop App serves as the front-end interface for customers
 # 📂 Directory Structure
 ```bash
 ├── Brewhaven
-│   ├── brewhaven # Contains React Native Frontend Code   
+│   ├── app # Contains React Native Frontend Code   
 │   ├── python_code
 │       ├── API/               # Chatbot API for agent-based system
 │       ├── dataset/           # Dataset for training recommendation engine    
