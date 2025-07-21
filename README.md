@@ -24,11 +24,6 @@ This Project uses following tools and Technologies:
 * Docker - To write and build Docker file and image
 * Coffee shop sales dataset from Kaggle
 
-## Market Basket Analysis - Data Mining
-Recommendation engine was built using Apriori algorithm. 2 recommendation engines were built:
-* Popular Recommendation Engine: Based on the popular items in cafe. (Data Pre-Processing, Data Wrangling)
-* Main Recommendation Engine: What goes well with which orders (Data Pre-Processing, Data Wrangling, Apriori Algorithm)
-
 ## Agents
 The chatbot in this project is designed using a modular agent-based architecture, where each agent is responsible for a specific task, ensuring a seamless and efficient interaction between the user and the cafe's services. This architecture enables the chatbot to perform complex actions by delegating tasks to specialized agents, making the system highly flexible, scalable, and easy to extend.
 
@@ -58,7 +53,11 @@ The agents work collaboratively in a pipeline architecture to process user input
         * Order Agent can forward the order to the recommendation agent to try and upsell the user near the end of their order.
     * The Details Agent fetches specific menu information.
     * The Recommendation Agent suggests complementary products.
-
+  
+## Market Basket Analysis - Data Mining
+Recommendation engine was built using Apriori algorithm. 2 recommendation engines were built:
+* Popular Recommendation Engine: Based on the popular items in cafe. (Data Pre-Processing, Data Wrangling)
+* Main Recommendation Engine: What goes well with which orders (Data Pre-Processing, Data Wrangling, Apriori Algorithm)
 
 ## React Native Interface
 ![Coffee Shop Agent Architecture](./images/mobile_app.png)
