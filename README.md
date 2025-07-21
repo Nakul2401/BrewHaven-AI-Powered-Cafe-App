@@ -2,10 +2,13 @@
 
 Welcome to the BrewHaven, an AI Agents powered cafe app! This repository contains the code and explanation of this project.
 
-# 🎯 Project Overview
+# Project Overview
 Developed a cafe app with an AI chatbot that handles orders, recommends products using market basket analysis, provides café details, and filters irrelevant chats. Engineered and integrated five AI agents (Guard, Classifying, Detail, Recommendation, Order Taking) using RAG, Llama 3.1, Pinecone DB, BGE embeddings, and prompt engineering. Built two recommendation engines with Apriori algorithm and data mining techniques. Deployed the system via Docker on RunPod as an API endpoint and is currently developing a React Native app with real-time Firebase integration.
 
-## 🔧 Tools and Technologies Used
+## 🧠 BrewBot Agent Architecture
+![BrewHaven's Agents Architecture](./images/architecture.jpg)
+
+## Tools and Technologies Used
 This Project uses following tools and Technologies:
 * AI Agents - 5 Agents
 * Retrieval-Augmented Generation (RAG)
@@ -26,13 +29,10 @@ Recommendation engine was built using Apriori algorithm. 2 recommendation engine
 * Popular Recommendation Engine: Based on the popular items in cafe. (Data Pre-Processing, Data Wrangling)
 * Main Recommendation Engine: What goes well with which orders (Data Pre-Processing, Data Wrangling, Apriori Algorithm)
 
-
-## 🧠 Chatbot Agent Architecture
-![BrewHaven's Agents Architecture](./images/architecture.jpg)
-
+##Agents
 The chatbot in this project is designed using a modular agent-based architecture, where each agent is responsible for a specific task, ensuring a seamless and efficient interaction between the user and the cafe's services. This architecture enables the chatbot to perform complex actions by delegating tasks to specialized agents, making the system highly flexible, scalable, and easy to extend.
 
-### 🤖 Key Agents in the System:
+### Key Agents in the System:
 1. **Guard Agent:**
 This agent acts as the first line of defense. It monitors all incoming user queries and ensures that only relevant and safe messages are processed by the other agents. It blocks inappropriate, harmful, or irrelevant queries, protecting the system and ensuring smooth conversations with users.
 
@@ -60,7 +60,7 @@ The agents work collaboratively in a pipeline architecture to process user input
     * The Recommendation Agent suggests complementary products.
 
 
-## 📱 React Native Interface
+## React Native Interface
 ![Coffee Shop Agent Architecture](./images/mobile_app.png)
 
 The React Native Coffee Shop App serves as the front-end interface for customers to interact with the AI-powered chatbot and explore the menu. Designed with a clean, intuitive user experience in mind, the app seamlessly integrates the chatbot for real-time customer service, enabling users to place orders, receive personalized product recommendations, and get detailed information about menu items.
